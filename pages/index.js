@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { useState } from "react";
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+
 
 export default function Home() {
   return (
@@ -13,17 +14,28 @@ export default function Home() {
 
       <main className="bg-white px-10">
         <section className="min-h-screen">
-            <nav className="py-10 mb-12 flex justify-between">
-                <h1 className="text-xl font-burtons">Jena Mussleh</h1>
-                <ul className="flex items-center">
-                    <li>
-                        <BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
-                    </li>
-                    <li>
-                        <a className="bg-gradient-to-r from bg-lime-950 to-lime-200 text-white px-4 py-2 rounded-md ml-8"href="#">Resume</a>
-                    </li>
-                </ul>
-            </nav>
+          <nav className="py-10 mb-12 flex justify-between">
+            <h1 className="text-xl font-burtons">Jena Mussleh</h1>
+            <ul className="flex items-center">
+              <li>
+                <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
+              </li>
+              <li>
+                <a className="bg-gradient-to-r from bg-lime-950 to-lime-200 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
+              </li>
+            </ul>
+          </nav>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-lime-950 font-medium">Jena Mussleh</h2>
+            <h3 className="text-2xl py-2">Software Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
+              Motivated and skilled Full Stack Developer, recently graduated from the Full Stack Coding Bootcamp at UCF, proficient in the MERN stack. Demonstrated expertise in building robust applications and collaborating effectively within team environments using GitHub for version control. Possesses a strong foundation in project organization and coordination, contributing to successful group projects throughout the bootcamp. Excited to leverage acquired skills and passion for coding to contribute to a dynamic development team.
+            </p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <AiFillLinkedin />
+            <AiFillGithub />
+          </div>
         </section>
       </main>
     </div>
