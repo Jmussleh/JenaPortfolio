@@ -1,7 +1,8 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-
+import Image from "next/image";
+import Jena from "../public/Jena.png"
 
 export default function Home() {
   return (
@@ -36,7 +37,11 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
+          <div className="realtive mx-auto rounded-full w-80 h-80 overflow-hidden mt-20">
+            <Image src={Jena}/>
+          </div>
         </section>
+        
       </main>
     </div>
   );
