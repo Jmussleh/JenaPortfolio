@@ -24,7 +24,7 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="font-burtons text-xl">Jena Mussleh</h1>
+            <h1 className="text-xl">Jena Mussleh</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
@@ -42,42 +42,48 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillLinkedin />
-            <AiFillGithub />
+              <Link href="https://www.linkedin.com/in/jenamussleh">
+              <AiFillLinkedin />
+                </Link>
+          
+              <Link href="https://github.com/Jmussleh?tab=repositories">
+                <AiFillGithub />
+              </Link>
+      
           </div>
           <div className="realtive mx-auto rounded-full w-80 h-80 overflow-hidden mt-20">
-            <Image src={Jena}/>
+            <Image src={Jena} />
           </div>
         </section>
         <section className="grid grid-cols-3 gap-4">
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <div>
-              <Image className="m-20" src={HTML} width={100} height={100}/>
+              <Image className="m-20" src={HTML} width={100} height={100} />
             </div>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <div>
-              <Image className="m-20" src={CSS} width={80} height={80}/>
+              <Image className="m-20" src={CSS} width={80} height={80} />
             </div>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <div>
-              <Image className="m-20" src={Reactpic} width={100} height={100}/>
+              <Image className="m-20" src={Reactpic} width={100} height={100} />
             </div>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <div>
-              <Image className="m-10" src={Express} width={250} height={250}/>
+              <Image className="m-10" src={Express} width={250} height={250} />
             </div>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <div>
-              <Image className="m-20"src={tailwind} width={100} height={100}/>
+              <Image className="m-20" src={tailwind} width={100} height={100} />
             </div>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <div>
-              <Image className="m-12" src={next} width={150} height={150}/>
+              <Image className="m-12" src={next} width={150} height={150} />
             </div>
           </div>
         </section>
