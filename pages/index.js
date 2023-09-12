@@ -3,6 +3,14 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from "next/image";
 import Jena from "../public/Jena.png"
+import HTML from "../public/HTML5.png"
+import CSS from "../public/CSS.png"
+import Reactpic from "../public/React.png"
+import Express from "../public/express.js.png"
+import tailwind from "../public/tailwind.png"
+import next from "../public/nextjs.png"
+import node from "../public/node.js.png"
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,13 +24,13 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">Jena Mussleh</h1>
+          <h1 className="font-burtons text-xl">Jena Mussleh</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from bg-lime-950 to-lime-200 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
+                < Link className="bg-gradient-to-r from bg-lime-950 to-lime-200 text-white px-4 py-2 rounded-md ml-8" href="https://docs.google.com/document/d/1E-kmyd8txlxfWmKkyoK_aqqRkdK8c_SxKQfz7X-yILM/edit?usp=sharing">Resume</Link>
               </li>
             </ul>
           </nav>
@@ -41,7 +49,43 @@ export default function Home() {
             <Image src={Jena}/>
           </div>
         </section>
-        
+        <section className="grid grid-cols-3 gap-4">
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image className="m-20" src={HTML} width={100} height={100}/>
+            </div>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image className="m-20" src={CSS} width={80} height={80}/>
+            </div>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image className="m-20" src={Reactpic} width={100} height={100}/>
+            </div>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image className="m-10" src={Express} width={250} height={250}/>
+            </div>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image className="m-20"src={tailwind} width={100} height={100}/>
+            </div>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div>
+              <Image className="m-12" src={next} width={150} height={150}/>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+
+          </div>
+        </section>
       </main>
     </div>
   );
