@@ -60,7 +60,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 text-center dark:text-white">Services I Offer</h3>
+            <h3 className="text-3xl py-1 text-center dark:text-white">Skills</h3>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
