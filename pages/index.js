@@ -52,7 +52,7 @@ export default function Home() {
            
           </div>
           <div className="realtive mx-auto rounded-full w-80 h-80 overflow-hidden mt-20 md:h-96 md:w-96 ">
-          <Image src={Jena} alt="picture of me"/>
+          <img src="../public/Jena.png" alt="Me" />
           </div>
         </section>
 
