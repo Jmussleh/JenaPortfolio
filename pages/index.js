@@ -3,7 +3,6 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from "next/image";
 import badge from "../public/codingbadge.png"
-import Jena from "../public/Jena.png"
 import Weather from "../public/weather.png"
 import Brewsome from "../public/Brewsome Weather.png"
 import flightnanny from "../public/flight_nanny.png"
@@ -49,10 +48,6 @@ export default function Home() {
             <Link href="https://github.com/Jmussleh?tab=repositories">
               <AiFillGithub />
             </Link>
-           
-          </div>
-          <div className="realtive mx-auto rounded-full w-80 h-80 overflow-hidden mt-20 md:h-96 md:w-96 ">
-          <Image src={Jena} alt="Me" />
           </div>
         </section>
 
@@ -164,3 +159,5 @@ export default function Home() {
     </div>
   );
 }
+//<div className="realtive mx-auto rounded-full w-80 h-80 overflow-hidden mt-20 md:h-96 md:w-96 ">
+//</div>
