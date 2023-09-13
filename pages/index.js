@@ -128,7 +128,6 @@ export default function Home() {
                 className="rounded-lg object-cover shadow-2xl"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={Brewsome}
                 alt="First API project"
               />
@@ -138,7 +137,6 @@ export default function Home() {
                 className="rounded-lg object-cover shadow-2xl"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={flightnanny}
                 alt="Group project named flightnanny"
               />
@@ -148,7 +146,6 @@ export default function Home() {
                 className="rounded-lg object-cover shadow-2xl"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={studybuddy}
                 alt="Group study project"
               />
@@ -158,7 +155,6 @@ export default function Home() {
                 className="rounded-lg object-cover shadow-2xl"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
                 src={Weather}
                 alt="Weather API project"
               />
