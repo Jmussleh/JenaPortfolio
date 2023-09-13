@@ -4,11 +4,7 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from "next/image";
 import Jena from "../public/Jena.png"
 import badge from "../public/codingbadge.png"
-import code from "../public/code.png"
-import JavaScript from "../public/JavaScript.png"
-import Reactpic from "../public/React.png"
-import tailwind from "../public/tailwind.png"
-import Background from "../public/linesbackground.jpg"
+import Weather from "../public/weather.png"
 import Brewsome from "../public/Brewsome Weather.png"
 import flightnanny from "../public/flight_nanny.png"
 import studybuddy from "../public/studybuddyscreenshot.png"
@@ -17,6 +13,7 @@ import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode ] = useState(false);
+  const [loading, setLoading] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -42,7 +39,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-lime-400 font-medium dark:text-lime-400 md:text-6xl">Jena Mussleh</h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">Software Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl">
-              Motivated and skilled Full Stack Developer, recently graduated from the Full Stack Coding Bootcamp at UCF, proficient in the MERN stack. Demonstrated expertise in building robust applications and collaborating effectively within team environments using GitHub for version control. Possesses a strong foundation in project organization and coordination, contributing to successful group projects throughout the bootcamp. Excited to leverage acquired skills and passion for coding to contribute to a dynamic development team.
+              Motivated and skilled Full Stack Developer, recently graduated from the Full Stack Coding Bootcamp at UCF, proficient in the <span className="text-lime-400 text-center"> MERN </span> stack. Demonstrated expertise in building robust applications and collaborating effectively within team environments using GitHub for version control. Possesses a strong foundation in project organization and coordination, contributing to successful group projects throughout the bootcamp. Excited to leverage acquired skills and passion for coding to contribute to a dynamic development team.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -118,10 +115,52 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 text-center dark:text-white">Portfolio</h3>
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <p className="text-md py-2 leading-8 text-center text-gray-800 dark:text-gray-200">
+              Here are some of the many projects that I completed in my time at the UCF Full-Stack Coding bootcamp. They are primarily 
+              <span className="text-lime-400 text-center"> MERN </span> applications. View my other projects in my <span className="text-lime-400">GitHub</span> above.
+            </p>
           </div>
         </section>
+     <section className="py-10">
+     <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 ">
+              <Image
+                className="rounded-lg object-cover shadow-2xl"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={Brewsome}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover shadow-2xl"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={flightnanny}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover shadow-2xl"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={studybuddy}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover shadow-2xl"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={Weather}
+              />
+            </div>
+          </div>
+     </section>
       </main>
     </div>
   );
