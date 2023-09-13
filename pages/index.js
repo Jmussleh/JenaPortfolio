@@ -2,7 +2,6 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from "next/image";
-import Jena from "../public/Jena.png"
 import badge from "../public/codingbadge.png"
 import Weather from "../public/weather.png"
 import Brewsome from "../public/Brewsome Weather.png"
@@ -52,7 +51,7 @@ export default function Home() {
            
           </div>
           <div className="realtive mx-auto rounded-full w-80 h-80 overflow-hidden mt-20 md:h-96 md:w-96 ">
-          <img src="../public/Jena.png" alt="Me" />
+          
           </div>
         </section>
 
