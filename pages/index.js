@@ -4,7 +4,8 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from "next/image";
 import Jena from "../public/Jena.png"
 import badge from "../public/codingbadge.png"
-import JavaScript from "../public/JavaScript-logo.png"
+import code from "../public/code.png"
+import JavaScript from "../public/JavaScript.png"
 import Reactpic from "../public/React.png"
 import tailwind from "../public/tailwind.png"
 import Background from "../public/linesbackground.jpg"
@@ -58,39 +59,57 @@ export default function Home() {
             <Image src={Jena} />
           </div>
         </section>
+
         <section>
           <div>
-            <h3 className="text-3xl py-1 text-center dark:text-white">Skills</h3>
+            <h3 className="text-3xl py-1 text-center dark:text-white">Skills I Offer</h3>
+            <p className="text-md py-2 leading-8 text-center text-gray-800 dark:text-gray-200">
+              In coding Bootcamp at the University of Central Florida my focus was on 
+              <span className="text-lime-400 text-center"> MERN </span>
+              stack applications which you can view in my <span className="text-lime-400">GitHub </span> above.
+            </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Core Languages
+              </h3>
+              <p className="py-2">
+                JavaScript is the language that I have the most experience and familiarity with.
+              </p>
               <h3 className="text-lg font-medium pt-8 pb-2 lg:text-2xl">
                 Languages
               </h3>
-              <h4 className="py-4 text-lime-400 md:text-lg lg:text-xl">Tools I Use</h4>
-              <p className="text-gray-800 py-1 md:text-lg lg:text-xl">JavaScript</p>
+              <p className=" text-lime-400 font-medium py-1 md:text-lg lg:text-xl">JavaScript</p>
               <p className="text-gray-800 py-1 md:text-lg lg:text-xl">Java</p>
               <p className="text-gray-800 py-1 md:text-lg lg:text-xl">Python</p>
               <p className="text-gray-800 py-1 md:text-lg lg:text-xl">C#</p>
-              
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
+                NPM and React
+              </h3>
+              <p className="py-2">
+                NPM and React are libraies that I use most in my applications.
+              </p>
               <h3 className="text-lg font-medium pt-8 pb-2 lg:text-2xl">
                 Libraries
               </h3>
-              <h4 className="py-4 text-lime-400 md:text-lg lg:text-xl">Tools I Use</h4>
-              <p className="text-gray-800 py-1 md:text-lg lg:text-xl">React</p>
+              <p className=" text-lime-400 font-medium py-1 md:text-lg lg:text-xl">React</p>
               <p className="text-gray-800 py-1 md:text-lg lg:text-xl">Node</p>
               <p className="text-gray-800 py-1 md:text-lg lg:text-xl">jQuery</p>
-              <p className="text-gray-800 py-1 md:text-lg lg:text-xl">NPM</p>
+              <p className=" text-lime-400 font-medium py-1 md:text-lg lg:text-xl">NPM</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Design</h3>
+              <p className="py-2">
+                The framework I use most frequently is tailwind because I enjoy its flexibility and ability to be mobile first.
+              </p>
               <h3 className="text-lg font-medium pt-8 pb-2 lg:text-2xl">
                 Frameworks
                 </h3>
-              <h4 className="py-4 text-lime-400 md:text-lg lg:text-xl">Tools I Use</h4>
               <p className="text-gray-800 py-1 md:text-lg lg:text-xl">Bootstrap</p>
-              <p className="text-gray-800 py-1 md:text-lg lg:text-xl">Tailwind</p>
+              <p className=" text-lime-400 font-medium py-1 md:text-lg lg:text-xl">Tailwind</p>
               <p className="text-gray-800 py-1 md:text-lg lg:text-xl">CSS3</p>
               <p className="text-gray-800 py-1 md:text-lg lg:text-xl">HTML5</p>
             </div>
