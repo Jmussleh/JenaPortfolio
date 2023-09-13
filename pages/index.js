@@ -13,7 +13,6 @@ import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode ] = useState(false);
-  const [loading, setLoading] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
