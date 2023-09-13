@@ -53,7 +53,7 @@ export default function Home() {
            
           </div>
           <div className="realtive mx-auto rounded-full w-80 h-80 overflow-hidden mt-20 md:h-96 md:w-96 ">
-            <Image src={Jena} />
+            <Image src={Jena} alt="picture of me"/>
           </div>
         </section>
 
@@ -130,6 +130,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={Brewsome}
+                alt="First API project"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -139,6 +140,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={flightnanny}
+                alt="Group project named flightnanny"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -148,6 +150,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={studybuddy}
+                alt="Group study project"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -157,6 +160,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={Weather}
+                alt="Weather API project"
               />
             </div>
           </div>
