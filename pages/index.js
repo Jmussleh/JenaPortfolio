@@ -50,7 +50,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-
         <section>
           <div>
             <h3 className="text-3xl py-1 text-center dark:text-white">Skills I Offer</h3>
