@@ -116,42 +116,53 @@ export default function Home() {
         </section>
      <section className="py-10">
      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <Link href="https://floretdemola.github.io/brewsome-weather/">
             <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover shadow-2xl"
+              <div className="rounded-lg object-cover shadow-2xl">
+                <Image
                 width={"100%"}
                 height={"100%"}
                 src={Brewsome}
-                alt="First API project"
-              />
+                alt="First API project"/></div>
+              <h1></h1>
             </div>
+          </Link>
+          <Link href="https://github.com/Jmussleh/FlightNanny">
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover shadow-2xl"
+              <div className="rounded-lg object-cover shadow-2xl"> 
+                <Image
                 width={"100%"}
                 height={"100%"}
                 src={flightnanny}
-                alt="Group project named flightnanny"
-              />
+                alt="Group project named flightnanny"/>
+                <h1></h1>
+              </div>
             </div>
+          </Link>
+          <Link href="https://github.com/dionkb/StudyBuddy">
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover shadow-2xl"
+              <div className="rounded-lg object-cover shadow-2xl">
+                <Image
                 width={"100%"}
                 height={"100%"}
                 src={studybuddy}
-                alt="Group study project"
-              />
+                alt="Group study project"/>
+                <h1></h1>
+                </div>
             </div>
+          </Link>
+          <Link href="https://jmussleh.github.io/WeatherDashoard/">
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover shadow-2xl"
+              <div className="rounded-lg object-cover shadow-2xl"> 
+                <Image
                 width={"100%"}
                 height={"100%"}
                 src={Weather}
-                alt="Weather API project"
-              />
+                alt="Weather API project"/>
+                <h1></h1>
+              </div>
             </div>
+          </Link>
           </div>
      </section>
       </main>
