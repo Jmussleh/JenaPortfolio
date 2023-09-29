@@ -55,8 +55,8 @@ export default function Home() {
             <h3 className="text-3xl py-1 text-center dark:text-white">Skills I Offer</h3>
             <p className="text-md py-2 leading-8 text-center text-gray-800 dark:text-gray-200">
               In coding Bootcamp at the University of Central Florida my focus was on 
-              <span className="text-lime-400 text-center"> MERN </span>
-              stack applications which you can view in my <span className="text-lime-400">GitHub </span> above.
+              <span className="text-lime-400 text-center font-medium py-1 md:text-lg lg:text-xl"> MERN </span>
+              stack applications which you can view in my <span className="text-lime-400 font-medium py-1 md:text-lg lg:text-xl">GitHub </span> above.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -110,7 +110,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 text-center dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-center text-gray-800 dark:text-gray-200">
               Here are some of the many projects that I completed in my time at the UCF Full-Stack Coding bootcamp. They are primarily 
-              <span className="text-lime-400 text-center"> MERN </span> applications. View my other projects in my <span className="text-lime-400">GitHub</span> above.
+              <span className="text-lime-400 text-center font-medium py-1 md:text-lg lg:text-xl"> MERN </span> applications. View my other projects in my <span className="text-lime-400 font-medium py-1 md:text-lg lg:text-xl">GitHub</span> above.
             </p>
           </div>
         </section>
@@ -123,8 +123,10 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 src={Brewsome}
-                alt="First API project"/></div>
-              <h1></h1>
+                alt="First API project"/>
+                <h1 className="text-center font-medium py-1 md:text-lg lg:text-xl">Developed using a local brewery <span className="text-lime-400 text-center font-medium py-1 md:text-lg lg:text-xl">API</span>.</h1>
+                </div>
+              
             </div>
           </Link>
           <Link href="https://github.com/Jmussleh/FlightNanny">
@@ -135,7 +137,7 @@ export default function Home() {
                 height={"100%"}
                 src={flightnanny}
                 alt="Group project named flightnanny"/>
-                <h1></h1>
+                <h1 className="text-center font-medium py-1 md:text-lg lg:text-xl">Developed using <span className="text-lime-400 text-center font-medium py-1 md:text-lg lg:text-xl">React</span> and <span className="text-lime-400 text-center font-medium py-1 md:text-lg lg:text-xl">Tailwind</span>.</h1>
               </div>
             </div>
           </Link>
@@ -147,7 +149,7 @@ export default function Home() {
                 height={"100%"}
                 src={studybuddy}
                 alt="Group study project"/>
-                <h1></h1>
+                <h1 className="text-center font-medium py-1 md:text-lg lg:text-xl">Developed using a custom API and <span className="text-lime-400 text-center font-medium py-1 md:text-lg lg:text-xl">MySQL</span> database. Features the <span className="text-lime-400 text-center font-medium py-1 md:text-lg lg:text-xl">TOMTOM Maps API</span>.</h1>
                 </div>
             </div>
           </Link>
@@ -159,7 +161,7 @@ export default function Home() {
                 height={"100%"}
                 src={Weather}
                 alt="Weather API project"/>
-                <h1></h1>
+                <h1 className="text-center font-medium py-1 md:text-lg lg:text-xl">Developed using the <span className="text-lime-400 text-center font-medium py-1 md:text-lg lg:text-xl">Open Weather API</span>. Utilizes Javascript for the main logic.</h1>
               </div>
             </div>
           </Link>
